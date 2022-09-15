@@ -8,9 +8,6 @@ document.getElementById("pokebutton").onclick = function () { getPokemon() };
 
 function getPokemon() {
     let pokeNumber = (Math.floor(Math.random() * 905) + 1);
-    let pokeName = "";
-    let pokeId = null;
-    let pokeImage = "";
 
     fetch(`https://pokeapi.co/api/v2/pokemon/${pokeNumber}/`, requestOptions)
         .then(response => response.json())
