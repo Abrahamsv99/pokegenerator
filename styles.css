@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    background-color: #fbf3f3;
+}
+nav {
+    background-color: #ff6e6e;
+    font-size: 2rem;
+    padding: 1rem 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.content {
+    text-align: center;
+}
+
+#pokeimg {
+    width: 20%;
+}
+
+#pokeid {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#pokename {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+#pokebutton {
+    margin-top: 20px;
+    background-color: #ff6e6e;
+    border-radius: 28px;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+}
+
+#pokebutton:hover {
+    background-color: #eb6767;
+}
+
+#pokebutton:active {
+    position: relative;
+    top: 1px;
+}
